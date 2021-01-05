@@ -2,8 +2,6 @@ name: Test Pull Requests To Master
 
 on:
   push:
-    branches:
-      - greenkeeper/*
   pull_request:
     branches:
       - master
